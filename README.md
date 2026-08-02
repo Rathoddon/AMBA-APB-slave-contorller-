@@ -57,9 +57,3 @@ Repository Structure
 ├── AMBA_APB.v          # APB slave RTL (synthesizable)
 ├── tb_AMBA_APB.v       # Testbench — 4 test cases
 └── README.md
-How to Simulate
-Open Xilinx Vivado and create a new RTL project
-Add AMBA_APB.v as a design source
-Add tb_AMBA_APB.v as a simulation source
-Run behavioral simulation
-Check the transcript for TC1–TC4 results and open the waveform to verify PSEL/PENABLE/PREADY/PRDATA timing
